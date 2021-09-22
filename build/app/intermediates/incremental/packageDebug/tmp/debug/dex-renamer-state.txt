@@ -1,0 +1,4 @@
+#Wed Sep 22 12:10:53 WIB 2021
+base.0=/home/jack/Documents/AP/hiveflutter_service_pattern/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
