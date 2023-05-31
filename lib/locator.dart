@@ -1,5 +1,4 @@
 import 'package:get_it/get_it.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_service_pattern/locator.config.dart';
 import 'package:hive_service_pattern/services/hive_service.dart';
 import 'package:hive_service_pattern/services/photo_gallery_repository.dart';

@@ -17,7 +17,8 @@ class MyPhotosGalleryViewModel extends BaseModel {
 
   List<MyPhotosModel> myImageModel = [];
 
-  Box<MyPhotosModel>? box;
+  late Box<MyPhotosModel> box;
+
   void initializeLoad() async {
     box = await hiveService.imageRepo.openBox();
     notifyListeners();

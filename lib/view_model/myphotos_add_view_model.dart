@@ -4,7 +4,6 @@ import 'package:hive_service_pattern/locator.dart';
 import 'package:hive_service_pattern/model/myphotos_model.dart';
 import 'package:stacked_services/stacked_services.dart';
 
-import '/model/myphotos_model.dart';
 import '/services/hive_service.dart';
 import '/utils/image_helper.dart';
 import '/utils/image_selector.dart';
@@ -37,9 +36,7 @@ class MyPhotosAddViewModel extends BaseModel {
 
   double userRating = 3.0;
 
-
   void initializeLoad() {}
-
 
   File userImageFile = File('');
 

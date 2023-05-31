@@ -42,7 +42,7 @@ class ImageSelector {
     if (pickedFile != null) {
       imageFileFromLibrary = File(pickedFile.path);
       // Start crop iamge then take the file.
-      File? croppedFile = await ImageCropper.cropImage(
+      File? croppedFile = await ImageCropper().cropImage(
           sourcePath: imageFileFromLibrary.path,
           aspectRatioPresets: [
             CropAspectRatioPreset.square,
